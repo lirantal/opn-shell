@@ -30,14 +30,19 @@ npm install --save opn-shell
 
 # Usage
 
+Call `opn-shell()` with a full path to an executable that will be launched in a terminal window.
+
+If the promise returned by `opn-shell()` rejects then it failed to detect and open a terminal window.
+
 ```js
 // @TODO
-const {} = require('opn-shell')
+const TerminalLauncher = require('opn-shell')
+
+const executable = '/usr/local/bin/my-shell-program.sh'
+TerminalLauncher.launchTerminal(executable).catch(err => {
+  console.log(err)
+})
 ```
-
-# Example
-
-<!-- TODO -->
 
 # Contributing
 
