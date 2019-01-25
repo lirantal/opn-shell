@@ -18,9 +18,9 @@
 
 # About
 
-opn-shell
+`opn-shell` allows you to execute shell commands in a terminal emulator window that opens either as a tab or a new window (depending on your terminal emulator) configuration.
 
-Execute shell commands and detect cross-platform terminal emulators
+It will automatically detect the available terminal emulators that exist in your OS and supports both MacOS and Linux, with a fallback to the associated program on Windows.
 
 # Install
 
