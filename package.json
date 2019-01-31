@@ -6,6 +6,7 @@
   "engines": {
     "node": ">=8.0.0"
   },
+  "bin": "./cli.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
