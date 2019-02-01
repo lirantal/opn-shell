@@ -39,9 +39,15 @@ If the promise returned by `opn-shell()` rejects then it failed to detect and op
 const TerminalLauncher = require('opn-shell')
 
 const executable = '/usr/local/bin/my-shell-program.sh'
-TerminalLauncher.launchTerminal(executable).catch(err => {
+TerminalLauncher.launchTerminal({ path: executable }).catch(err => {
   console.log(err)
 })
+```
+
+## CLI
+
+```shell
+npx opn-shell my-shell-program.sh
 ```
 
 # Contributing
