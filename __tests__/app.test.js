@@ -46,6 +46,12 @@ describe('Terminal Launcher', () => {
       Object.defineProperty(process, 'platform', {
         value: 'win32'
       })
+
+      Object.defineProperty(process, 'env', {
+        value: {
+          PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+        }
+      })
     })
 
     beforeEach(() => {
