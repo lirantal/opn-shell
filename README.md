@@ -12,7 +12,6 @@
   <a href="https://www.npmjs.org/package/opn-shell"><img src="https://badgen.net/npm/dt/opn-shell"alt="downloads"/></a>
   <a href="https://travis-ci.org/lirantal/opn-shell"><img src="https://badgen.net/travis/lirantal/opn-shell" alt="build"/></a>
   <a href="https://codecov.io/gh/lirantal/opn-shell"><img src="https://badgen.net/codecov/c/github/lirantal/opn-shell" alt="codecov"/></a>
-  <a href="https://snyk.io/test/github/lirantal/opn-shell"><img src="https://snyk.io/test/github/lirantal/opn-shell/badge.svg" alt="Known Vulnerabilities"/></a>
   <a href="https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md"><img src="https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg" alt="Security Responsible Disclosure" /></a>
 </p>
 
