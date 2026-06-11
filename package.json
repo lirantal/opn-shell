@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "opn-shell",
   "version": "0.0.0-development",
   "description": "Execute shell commands and detect cross-platform terminal emulators",
@@ -198,5 +194,9 @@
         }
       ]
     }
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
