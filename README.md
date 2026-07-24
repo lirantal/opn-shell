@@ -12,7 +12,6 @@
   <a href="https://www.npmjs.org/package/opn-shell"><img src="https://badgen.net/npm/dt/opn-shell"alt="downloads"/></a>
   <a href="https://github.com/lirantal/opn-shell/actions/workflows/ci.yml"><img src="https://github.com/lirantal/opn-shell/actions/workflows/ci.yml/badge.svg?branch=master" alt="build"/></a>
   <a href="https://codecov.io/gh/lirantal/opn-shell"><img src="https://badgen.net/codecov/c/github/lirantal/opn-shell" alt="codecov"/></a>
-  <a href="https://github.com/nodejs/security-wg/blob/master/processes/responsible_disclosure_template.md"><img src="https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg" alt="Security Responsible Disclosure" /></a>
 </p>
 
 # About
